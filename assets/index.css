@@ -5,6 +5,11 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: url("img/bg.jpg") repeat;
     background-size: cover;
