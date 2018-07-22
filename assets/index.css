@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+body {
+    background: url("img/bg.jpg") repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.header-container {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.factorial-container {
+    width: 80%;
+    margin: 0 auto;
+    background: rgba(161, 31, 255, 0.3);
+    padding: 50px 0;
+}
+
+.factorial-container-heading {
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.factorial-container-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.factorial-container-heading {
+    text-align: center;
+}
+
+.factorial-container-input,
+.factorial-container-submit {
+    background: rgba(161, 31, 255, 0.8);
+    width: 250px;
+    height: 50px;
+    align-self: center;
+}
+
+.factorial-container-input {
+    font-size: 40px;
+    text-align: center;
+    border: none;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.factorial-container-result {
+    align-self: center;
+    font-size: 40px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.factorial-container-submit {
+    border: none;
+    font-size: 25px;
+    color: white;
+}
+
+.factorial-container-input:hover,
+.factorial-container-submit:hover {
+    background: rgba(161, 31, 255, 0.3);
+}
